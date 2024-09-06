@@ -1,0 +1,38 @@
+main {
+    padding: 20px 30px;
+
+    .hero {
+        max-width: 1440px;
+        height: 316px;
+        margin: 0 auto;
+        background-image: url("../../assets/images/Rectangle\ 1.png");
+        object-fit: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 10px 20px;
+
+        .hero_logo {
+            max-width: 77px;
+        }
+
+        .contact {
+            font-size: 48px;
+            font-weight: 500;
+            line-height: 72px;
+            text-align: left;
+            color: #000000;
+        }
+
+        .hero_text_collection {
+            display: flex;
+            gap: 10px;
+        }
+
+        .hero_text_collection>p {
+            color: #000000;
+            font-size: 20px;
+        }
+    }
+}
